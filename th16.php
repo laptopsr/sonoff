@@ -4,6 +4,20 @@ ini_set('display_errors', 1);
 
 /*
 	#яжФИНН - Автор
+	
+	Для Windows:
+	Если не установлен Web Server то читайте шаг номер 1.
+	1. Установите XAMPP с пакетами apache и PHP. В гугле легко найти.
+	2. Найдите в дирректории xampp папку htdocs и положите в нее этот файл th16.php
+	3. Откройте браузер и перейдите по адресу http://localhost/th16.php
+	
+	Для Linux Debian
+	Если не установлен Web Server то читайте шаг номер 1.
+	1. В терминале - 
+			sudo apt install apache2 php
+			sudo chown -R $USER:$USER /var/www
+	2. Разместите этот файл в /var/www/html/th16.php
+	3. Откройте браузер и перейдите по адресу http://localhost/th16.php
 */
 
 $project_name 		= 'TH16 & DS18B20';
